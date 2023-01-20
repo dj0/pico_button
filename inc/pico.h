@@ -49,6 +49,13 @@ void PICO_init(void);
  */
 void PICO_reset(void);
 
+void readPenCoord();
+int PICO_penCoordX(void);
+int PICO_penCoordY(void);
+
+u16 PICO_readPenX();
+u16 PICO_readPenY();
+
 /**
  * @brief
  *      Set the callback function for controller state changed.<br>
